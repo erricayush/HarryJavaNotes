@@ -37,7 +37,10 @@ public class AddOfTwoMatrix {
             }
             System.out.println();
         }
+        
 
+        /// addition of two matrix-------------
+        
         System.out.println("Addition of two matrix:");
         int ms[][]=new int[r][m];
         for(int i=0;i<r;i++){
@@ -45,7 +48,7 @@ public class AddOfTwoMatrix {
                 ms[i][j]=m1[i][j]+m2[i][j];
             }
         }
-
+     
         for(int i=0;i<r;i++){
             for(int j=0;j<m;j++){
                System.out.print( ms[i][j]+" ");
